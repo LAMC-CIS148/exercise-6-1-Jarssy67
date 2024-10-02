@@ -100,6 +100,9 @@ aside {
 	width: 215px;
 	padding: 0 20px 20px;
 }
+aside h2 {
+	font-size: 120%;
+	padding-bottom: .25em;
 aside h3 {
 	font-size: 105%;
 	padding-bottom: .25em;
