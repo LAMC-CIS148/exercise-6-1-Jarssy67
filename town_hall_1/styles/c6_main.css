@@ -44,11 +44,6 @@ header img {
 	text-shadow: 2px 2px 2px #800000;
 }
 /* the styles for the main content */
-main {
-	clear: left;
-}
-main {
-	padding: 0 30px;
 }
 main h1 {
 	font-size: 150%;
@@ -98,10 +93,12 @@ article h3 {
 section {
 	width: 525px;
 	float: right;
+	padding: 0 20px;
 }
 /* the styles for the aside */
 aside {
 	width: 215px;
+	padding: 0 20px 20px;
 }
 aside h3 {
 	font-size: 105%;
