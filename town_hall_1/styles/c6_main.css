@@ -1,5 +1,7 @@
 /* the styles for the elements */
 * {
+	margin: 0;
+	padding: 0;
 }
 html {
 	background-color: white;
@@ -17,9 +19,9 @@ a:focus, a:hover {
 }
 /* the styles for the header */
 header {
-	padding: .5em 0 .9em 0;
+	padding: 1.5em 0 2em 0;
 	border-bottom: 3px solid #931420;
-	background-image: -moz-linear-gradient(
+		background-image: -moz-linear-gradient(
 	    30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
 	background-image: -webkit-linear-gradient(
 	    30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
@@ -29,51 +31,47 @@ header {
 	    30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
 }
 header h2 {
-	font-size: 140%;
+	font-size: 175%;
 	color: #800000;
 }
 header h3 {
-	font-size: 100%;
+	font-size: 130%;
 	font-style: italic;
 }
 header img {
 	float: left;
-	padding: 0 20px;
+	padding: 0 30px;
 }
 .shadow {
 	text-shadow: 2px 2px 2px #800000;
 }
-/* the styles for the main content */
+/* the styles for the section */
+section {
+	width: 525px;
+	float: right;
+	padding: 0 20px 20px 20px;
 }
-main h1 {
+section h1 {
 	font-size: 150%;
-	padding: .3em 0;
-    border-top: 3px solid #931420;
-    border-bottom: 3px solid #931420;
+	padding: .5em 0 .25em 0;
+	margin: 0;
 }
-main h2 {
+section h2 {
 	color: #800000;
 	font-size: 130%;
-	padding: .25em 0 .25em 0;
+	padding: .5em 0 .25em 0;
 }
-main h3 {
-	font-size: 105%;
-	padding-bottom: .25em;
-}
-main img {
-	padding-bottom: 1em;
-}
-main p {
+section p {
 	padding-bottom: .5em;
 }
-main blockquote {
-	padding: 0 1em;
+section blockquote {
+	padding: 0 2em;
 	font-style: italic;
 }
-main ul {
+section ul {
 	padding: 0 0 .25em 1.25em;
 }
-main li {
+section li {
 	padding-bottom: .35em;
 }
 
@@ -83,10 +81,6 @@ article {
 	border-top: 2px solid #800000;
 	border-bottom: 2px solid #800000;
 }
-article img {
-	float: right; 
-	border: 1px solid black; 
-}
 article h2 {
 	padding-top: 0;
 }
@@ -94,19 +88,23 @@ article h3 {
 	font-size: 105%;
 	padding-bottom: .25em;
 }
-section {
-	width: 525px;
+article img {
 	float: right;
-	padding: 0 20px;
+	margin: .5em 0 1em 1em;
+	border: 1px solid black;
 }
+
 /* the styles for the aside */
 aside {
 	width: 215px;
-	padding: 0 20px 20px;
+	float: right;
+	padding: 0 0 20px 20px;
 }
 aside h2 {
-	font-size: 120%;
-	padding-bottom: .25em;
+	color: #800000;
+	font-size: 130%;
+	padding: .5em 0 .25em 0;
+}
 aside h3 {
 	font-size: 105%;
 	padding-bottom: .25em;
@@ -118,7 +116,8 @@ aside img {
 /* the styles for the footer */
 footer {
 	background-color: #931420;
-	clear: both; 
+	clear: both;
+
 }
 footer p {
 	text-align: center;
