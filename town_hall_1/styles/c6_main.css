@@ -63,6 +63,21 @@ header img {
 #nav_menu ul li a.current {
 	text-decoration: none;
 }
+#nav_menu ul { list-style-type: none;}
+#nav_menu ul li { float: left;}
+#nav_menu ul li a {
+	text-align: center; 
+	display: block;
+	wisth: 175px; 
+	padding: 1em 0;
+	text-decoration: none;
+	background-color: maroon;
+	color: white;
+	font-weight: bold;
+	border-right: 2px solid black;
+}
+#nav_menu ul li a.lastitem { border-right: none;}
+#nav_menu ul li a.current { color: yellow;}
 /* the styles for the section */
 section {
 	width: 525px;
