@@ -46,7 +46,7 @@ header img {
 	text-shadow: 2px 2px 2px #800000;
 }
 #nav_menu ul { list-style-type: none; }
-#nav_menu ul li { float: lft; }
+#nav_menu ul li { float: left; }
 #nav_menu ul li a {
 	text-align: center;
 	display: block;
@@ -58,8 +58,8 @@ header img {
 	font-weight: bold;
 	border-right: 2px solid white;
 }
-#nav_menu ul li a.lastitem { border-right: none;}
-#nav_menu ul li a.current { color: yellow;}
+#nav_menu ul li .lastitem { border-right: none;}
+#nav_menu ul li .current { color: yellow;}
 #nav_menu ul {
 	list-style: none;
 	position: relative;
