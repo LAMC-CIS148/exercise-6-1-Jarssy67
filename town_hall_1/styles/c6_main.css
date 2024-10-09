@@ -45,6 +45,21 @@ header img {
 .shadow {
 	text-shadow: 2px 2px 2px #800000;
 }
+#nav_menu ul { list-style-type: none; }
+#nav_menu ul li { float: lft; }
+#nav_menu ul li a {
+	text-align: center;
+	display: block;
+	width: 175px;
+	padding: 1em 0;
+	text-decoration: none;
+	background-color: maroon;
+	color: white;
+	font-weight: bold;
+	border-right: 2px solid white;
+}
+#nav_menu ul li a.lastitem { border-right: none;}
+#nav_menu ul li a.current { color: yellow;}
 #nav_menu ul {
 	list-style: none;
 	position: relative;
