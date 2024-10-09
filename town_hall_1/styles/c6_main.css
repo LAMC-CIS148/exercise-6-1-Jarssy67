@@ -64,7 +64,7 @@ header img {
 	position: relative;
 }
 #nav_menu ul li { float: left; }
-#nav_menu ul lu {
+#nav_menu ul li {
 	display: none;
 	position: absolute;
 	top: 100%
